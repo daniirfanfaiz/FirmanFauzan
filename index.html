@@ -1,0 +1,20 @@
+<html>
+    <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="style.css">
+	<body>
+		<h1>HAIII BELAAA</h1>
+		<img src="http://4.bp.blogspot.com/-xi04TdRlkpM/U_at4WSfVII/AAAAAAAAMVI/wKw5v1HeAc0/s1600/mengiyakan-permintaan.gif">
+		<h1>SAYANG AKU ENGGA??</h1>
+		<button id="btn_Sayang" onclick='alert("Woof u mium❤️")'>Sayang</button>
+		<button id="btn_Engga" onclick="Engga(this)" style="position: absolute;">Engga</button>
+	</body>
+	<script>
+		function Engga(id){
+		   var Sayang = document.getElementById('btn_Sayang');
+		   var i =Math.floor(Math.random()*300)+1
+		   var j =Math.floor(Math.random()*100)+Sayang.offsetTop;
+		   id.style.left = i+"px";
+		   id.style.top = j+"px"; 
+		}
+	</script>
+</html>
